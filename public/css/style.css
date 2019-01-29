@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-image: url(../media/PV3_background.png);
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.page-footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.icon {
+    font-size: 50px;
+    color: #02BAAF;
+}
+
+.head {
+    box-shadow: none;
+}
+
+.profilePic {
+    height: 150px;
+    border-radius: 50%;
+}
